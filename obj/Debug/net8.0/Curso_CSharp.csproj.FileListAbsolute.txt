@@ -1,0 +1,4 @@
+C:\Users\Aluno Noite\Desktop\Curso_CSharp\obj\Debug\net8.0\Curso_CSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aluno Noite\Desktop\Curso_CSharp\obj\Debug\net8.0\Curso_CSharp.AssemblyInfoInputs.cache
+C:\Users\Aluno Noite\Desktop\Curso_CSharp\obj\Debug\net8.0\Curso_CSharp.AssemblyInfo.cs
+C:\Users\Aluno Noite\Desktop\Curso_CSharp\obj\Debug\net8.0\Curso_CSharp.csproj.CoreCompileInputs.cache
