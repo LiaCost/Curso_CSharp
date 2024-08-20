@@ -24,8 +24,8 @@ escopo.ExibirContadorGlobal();
 
 /* Exercicios ex  = new Exercicios();
 ex.InicializandoumArray(); */
-/* Exercicios exercicios = new Exercicios();
-exercicios.AcessandoElementosArray(); */
+//Exercicios exercicios = new Exercicios();
+//exercicios.AcessandoElementosArray(); 
 /* Exercicios exercicios = new Exercicios();
 exercicios.AlterandoValoresArray(); */
 /*  Exercicios exercicios = new Exercicios();
@@ -62,7 +62,25 @@ exercicio.Capturando();  */
         Console.WriteLine("Erro: " + ex.Message);
     }
  */
+ Paradigmasoo conceitos = new Paradigmasoo();
+
+    // Explicar Orientação a Objetos
+    conceitos.ExplicarOrientacaoAObjetos();
+
+    // Explicar a diferença entre Programação Estruturada e Orientada a Objetos
+    conceitos.DiferencaEntreParadigmas();
+
+    // Explicar os Pilares da Orientação a Objetos
+    conceitos.ExplicarPilares();
 
 
 
 
+
+
+
+
+
+
+
+ 

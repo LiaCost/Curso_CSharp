@@ -221,15 +221,15 @@ namespace CursoCSharp
         //Escreva um método que recebe um número inteiro. 
         //Se o número for negativo, lance uma ArgumentException. 
         //Capture a exceção no método Main e imprima uma mensagem apropriada.
-           /*  public void Excessao(int numero)
+           /*   public void Excessao(int numero)
+        {
+            if (numero < 0)
             {
-            
-                if (numero < 0)
-                {
-                    throw new ArgumentException("O número não pode ser negativo.");
-                }
-
-                Console.WriteLine("Número aceito: " + numero);
+                throw new ArgumentException("O número não pode ser negativo.");
+            }
+            else
+            {
+                Console.WriteLine("Número válido: " + numero);
             } */
 
 
