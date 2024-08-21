@@ -62,7 +62,7 @@ exercicio.Capturando();  */
         Console.WriteLine("Erro: " + ex.Message);
     }
  */
- Paradigmasoo conceitos = new Paradigmasoo();
+ /* Paradigmasoo conceitos = new Paradigmasoo();
 
     // Explicar Orientação a Objetos
     conceitos.ExplicarOrientacaoAObjetos();
@@ -72,10 +72,40 @@ exercicio.Capturando();  */
 
     // Explicar os Pilares da Orientação a Objetos
     conceitos.ExplicarPilares();
+ */
+/*  // 1. Criando Objetos (Instanciando a classe Pessoa)
+            Pessoa pessoa1 = new Pessoa("Alice", 30);
+            Pessoa pessoa2 = new Pessoa("Bob", 25);
 
+            // 2. Usando Métodos de Instância (Métodos não estáticos)
+            pessoa1.ExibirInformacoes();
+            pessoa2.ExibirInformacoes();
 
+            // 3. Usando Método Estático (Pertence à Classe, não à instância)
+            Pessoa.ExibirNumeroDePessoas();
 
+            // 4. Membros de Instância vs. Membros Estáticos
+            Console.WriteLine($"Pessoa1: {pessoa1.Nome}, Idade: {pessoa1.Idade}");
+            Console.WriteLine($"Pessoa2: {pessoa2.Nome}, Idade: {pessoa2.Idade}");
+            Console.WriteLine($"Número total de pessoas: {Pessoa.NumeroDePessoas}");
+ */
+  // Instanciando a classe Produto usando o construtor padrão
+            Produto produto1 = new Produto();
+            produto1.ExibirInformacoes();
 
+            // Instanciando a classe Produto usando o construtor com parâmetros
+            Produto produto2 = new Produto("Smartphone", 1999.99m, 50);
+            produto2.ExibirInformacoes();
+
+            // Modificando atributos usando propriedades
+            produto1.Nome = "Notebook";
+            produto1.Preco = 2999.99m;
+            produto1.Estoque = 25;
+            produto1.ExibirInformacoes();
+
+            // Acessando método protegido através da classe derivada
+            ProdutoEspecial produtoEspecial = new ProdutoEspecial();
+            produtoEspecial.ExibirMetodoProtegido();
 
 
 
