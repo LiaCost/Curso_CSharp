@@ -89,7 +89,7 @@ exercicio.Capturando();  */
             Console.WriteLine($"Pessoa2: {pessoa2.Nome}, Idade: {pessoa2.Idade}");
             Console.WriteLine($"Número total de pessoas: {Pessoa.NumeroDePessoas}");
  */
-  // Instanciando a classe Produto usando o construtor padrão
+ /*  // Instanciando a classe Produto usando o construtor padrão
             Produto produto1 = new Produto();
             produto1.ExibirInformacoes();
 
@@ -105,8 +105,9 @@ exercicio.Capturando();  */
 
             // Acessando método protegido através da classe derivada
             ProdutoEspecial produtoEspecial = new ProdutoEspecial();
-            produtoEspecial.ExibirMetodoProtegido();
-
+            produtoEspecial.ExibirMetodoProtegido(); */
+Livro lv = new Livro ("Se houver amanhã", "Sidney Shadow", 2009, 400);
+lv.ExibirDetalhes();
 
 
 
